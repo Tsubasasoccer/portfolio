@@ -41,6 +41,7 @@ width: 100%;
 }
 .header-btn{
   display: none;
+  font-size: 18px;
 }
 /* main */
 main{
@@ -317,6 +318,12 @@ opacity: 1;
 }
 
 @media (max-width: 820px) {
+  .header-logo h2{
+    font-size: 24px;
+  }
+  .header-nav{
+    padding: 0 50px;
+  }
   .nav-ul{
     z-index: 2;
     position: fixed;
@@ -363,8 +370,8 @@ nav li{
     width: 100%;
   }
   .main-image img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     position: static;
     z-index: 0;
   }
@@ -374,12 +381,13 @@ nav li{
   }
   .about{
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .about-img{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .about-img-area{
     width: 250px;
@@ -403,6 +411,7 @@ nav li{
   }
   .work h2{
     font-size: 24px;
+    margin-bottom: 50px;
   }
   .work-content{
     width: 300px;
