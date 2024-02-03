@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./desc/index.css">
+  <script src="./desc/index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header">
+    <nav class="header-nav">
+      <div class="header-logo">
+        <h2>Tsubasa</h2>
+      </div>
+      <ul class="nav-ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+      </ul>
+      <div class="header-btn">
+        <i id="icon" class="fa-solid fa-bars" onclick="MenuFunction()"></i>
+      </div>
+    </nav>
+  </div>
+  <main class="container">
+    <div class="main-title">
+      <h1>Hi &#128588;</h1>
+      <div class="type">
+        <span class="text first-text">I'm</span>
+        <span class="text sec-text">Tsubasa</span>
+      </div>
+      <div class="main-info">
+        <div class="main-info-more">
+          <a href="mailto:tsforexm1475@gmail.com" class="main-btn">Contact me</a>
+          <a href="#works" class="main-btn">My works</a>
+          <a href="https://github.com/Tsubasasoccer?tab=repositories" target="_blank"><i
+              class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="main-image">
+      <img src="./img/profile.JPG" alt="">
+    </div>
+  </main>
+  <section class="container">
+    <div class="about" id="about">
+      <div class="about-img">
+        <div class="about-img-area"><img src="./img/about.jpeg" alt=""></div>
+
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>I am currently a university student in Japan. I took a year off from my university last year to study English and programming in Canada. I enjoy learning coding every day with the goal of becoming a front-end engineer.</p>
+        <div class="tab-box">
+          <button class="tab-btn active">Education</button>
+          <button class="tab-btn">Skill</button>
+          <button class="tab-btn">Certifications</button>
+          <div class="line"></div>
+        </div>
+        <div class="contents-box">
+          <div class="content active">
+            <div class="content-school">
+              <div class="school-flex">
+                <p class="school-name">Tamwood College</p>
+                <p class="school-preiod">April 2023 - Jan 2024</p>
+              </div>
+              <p class="school-loc">Vancouver/Canada</p>
+              <p class="school-tit">- Learning Contents -</p>
+              <ul>
+                <li>English Language Program</li>
+                <li> Knowledge of front-end web development(using HTML. CSS, Javascript, React, BootStrap)</li>
+                <li> Fundamentals of back-end web development(using PHP)</li>
+              </ul>
+            </div>
+            <div class="content-school">
+              <div class="school-flex">
+                <p class="school-name">Meiji University</p>
+                <p class="school-preiod">April 2020 - present</p>
+              </div>
+              <p class="school-loc">Kanagawa/Japan Bachelor of Agricultural Chemistry</p>
+              <p class="school-tit">- Learning Contents -</p>
+              <ul>
+                <li>Basic bioscience knowledge and experimental techniques</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content ">
+          <h3>What I have learned</h3>
+          
+            <div class="content-icon">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-jquery-plain-wordmark colored"></i>
+              <i class="devicon-php-plain colored"></i>
+              <i class="devicon-mysql-plain-wordmark colored"></i>
+
+            <i class="devicon-sass-original colored"></i>
+          
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+
+            <i class="devicon-github-original-wordmark colored"></i>
+          
+              <i class="devicon-tailwindcss-original-wordmark colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+
+            <div class="content-cer">
+              <ul>
+                <li>
+                  Web Developer Certificate from Tamwood
+                  </li>
+              </ul>
+              <p>Jan 2024</p>
+              <ul>
+                <li>
+                  TOEIC 835
+                </li>
+              </ul>
+              <p>Dec 2022</p>
+              <ul>
+                <li>
+                  EIKEN Grade 2
+                </li>
+              </ul>
+              <p>Jan 2019</p>
+            </div>
+   
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="container" id="works">
+    <div class="work">
+      <h2>Works</h2>
+      <div class="work-contents">
+        <div class="work-content">
+          <img src="./img/work1.jpg" alt="">
+          <div class="layer">
+            <h3>- Company Website -</h3>
+            <p></p>
+            <div class="work-link">
+              <a href="https://tsubasasoccer.github.io/static-website/" class="work-btn" target="_blank">Live</a>
+              <a href="https://github.com/Tsubasasoccer/static-website" class="work-btn" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-content">
+          <img src="./img/work2.jpg" alt="">
+          <div class="layer">
+            <h3>- Weather App -</h3>
+            <p></p>
+            <div class="work-link">
+              <a href="https://tsubasasoccer.github.io/DynamicWebsite/" class="work-btn"target="_blank">Live</a>
+              <a href="https://github.com/Tsubasasoccer/DynamicWebsite" class="work-btn"target="_blank">GitHub</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="work-content">
+          <img src="./img/work3.jpg" alt="">
+          <div class="layer">
+            <h3>- Shop cart -</h3>
+            <p></p>
+            <div class="work-link">
+              <a href="https://tsubasasoccer.github.io/Capstone-Tamwood/" class="work-btn"target="_blank">Live</a>
+              <a href="https://github.com/Tsubasasoccer/Capstone-Tamwood" class="work-btn"target="_blank">GitHub</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="work-content">
+          <img src="./img/work4.jpg" alt="">
+          <div class="layer">
+            <h3>- Gym App -</h3>
+            <p></p>
+            <div class="work-link">
+              <!-- <a href="mailto:tsforexm1475@gmail.com" class="work-btn"target="_blank">Live</a> -->
+              <a href="https://github.com/memorandumtk/FitnessCMS-FinalProject" class="work-btn"target="_blank">GitHub</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="work-content">
+          <img src="./img/work5.jpg" alt="">
+          <div class="layer">
+            <h3>- Portfolio -</h3>
+            <p></p>
+            <div class="work-link">
+              <a href="#" class="work-btn"target="_blank">Live</a>
+              <a href="https://github.com/memorandumtk/FitnessCMS-FinalProject" class="work-btn"target="_blank">GitHub</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
